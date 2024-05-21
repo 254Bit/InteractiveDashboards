@@ -45,7 +45,7 @@ app.layout = html.Div([
 )
 def update_graph(option_selected):
     print(option_selected)
-    print(type(option_selected))
+    #print(type(option_selected))
     
     container = 'The Year Chosen by User Was: {}'.format(option_selected)
     
@@ -88,3 +88,4 @@ def update_graph(option_selected):
 #-----------------------------------------------------------
 if __name__ == '__main__':
     app.run_server(debug=True)
+    
